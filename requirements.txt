@@ -1,0 +1,8 @@
+# Necesario para la app gratuita (app.py, sin API key)
+streamlit>=1.38
+python-docx>=1.1
+
+# Solo hacen falta si además quieres usar la versión con línea de comandos
+# que llama automáticamente a una API de pago (generar_sentencia.py):
+# pdfplumber>=0.11
+# anthropic>=0.34
