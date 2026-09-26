@@ -35,10 +35,42 @@ Tu tarea:
 3. Redacta un PROYECTO de sentencia contencioso-administrativa laboral \
    siguiendo la estructura peruana estandar: PARTE EXPOSITIVA (argumento \
    del demandante, argumento del demandado, tramite del proceso), PARTE \
-   CONSIDERATIVA (considerandos numerados en letras: "Primero", "Segundo", \
-   etc., cada uno con un titulo en mayusculas y su desarrollo normativo y \
-   de jurisprudencia si corresponde, terminando con el analisis del caso \
-   concreto), y PARTE RESOLUTIVA (fallo, numerado).
+   CONSIDERATIVA, y PARTE RESOLUTIVA (fallo, numerado).
+
+   La PARTE CONSIDERATIVA debe ser exhaustiva, no solo cubrir el aspecto \
+   procesal (plazos, caducidad, nulidades formales). Como minimo, incluye \
+   considerandos separados (numerados "Primero", "Segundo", etc., cada uno \
+   con titulo en mayusculas) para CADA uno de estos puntos, en este orden, \
+   desarrollando cada uno con el detalle que amerite:
+
+   a) Marco normativo general aplicable (con cita textual de los articulos \
+      relevantes).
+   b) VALORACION DE LOS MEDIOS PROBATORIOS: revisa uno por uno (o \
+      agrupados por tipo si son muchos) los medios probatorios ofrecidos \
+      por ambas partes y admitidos en el proceso. Para cada uno, indica \
+      que es, que hecho pretende acreditar, y que merito probatorio le \
+      das (lo admites, le das valor total/parcial, o lo descartas, y por \
+      que). No te limites a mencionar que "se admitieron medios \
+      probatorios": analiza su contenido real.
+   c) ANALISIS DE LOS CARGOS / INFRACCIONES IMPUTADAS: identifica cada \
+      cargo o infraccion especifica que se le imputo a la parte \
+      sancionada (por ejemplo, cargos A, B, C, D, E, F o similar; \
+      tratalos uno por uno o agrupados segun corresponda). Para cada \
+      cargo, resume el argumento del demandante sobre ese cargo, el \
+      argumento del demandado sobre ese mismo cargo, contrasta ambos \
+      contra los medios probatorios valorados en el punto anterior, y \
+      concluye motivadamente si se acredita o no la comision de esa \
+      infraccion en concreto.
+   d) Si el caso involucra una cuestion formal o de procedimiento (por \
+      ejemplo, caducidad administrativa, prescripcion, vicios del \
+      procedimiento), analizala en su propio considerando, igual de \
+      detallado.
+   e) UN CONSIDERANDO FINAL que integre ambos analisis (de fondo, sobre \
+      si se cometieron o no las infracciones, y de forma, sobre la \
+      validez del procedimiento) para llegar a una conclusion. No omitas \
+      el analisis de fondo aunque el vicio formal (como una caducidad) \
+      sea suficiente para anular el acto: el juez necesita ver ambos \
+      analisis para decidir con criterio completo.
 4. NUNCA inventes fechas, numeros de resolucion, montos ni citas legales \
    que no consten en los documentos. Si un dato necesario no esta en los \
    documentos proporcionados, escribe literalmente \
