@@ -92,10 +92,17 @@ if generar:
         )
         st.stop()
 
-    with tempfile.NamedTemporaryFile(suffix=".docx", delete=False) as tmp_out:
-        build_docx(data, tmp_out.name, nota_de_trabajo=NOTA_DEFAULT)
-        docx_bytes = pathlib.Path(tmp_out.name).read_bytes()
-        pathlib.Path(tmp_out.name).unlink(missing_ok=True)
+    # En Windows no se puede borrar un archivo mientras sigue "abierto" por
+    # el propio proceso, así que primero se cierra el archivo temporal y
+    # recién después se escribe/lee/borra sobre esa ruta.
+    tmp_out = tempfile.NamedTemporaryFile(suffix=".docx", delete=False)
+    tmp_out.close()
+    tmp_path = pathlib.Path(tmp_out.name)
+    try:
+        build_docx(data, str(tmp_path), nota_de_trabajo=NOTA_DEFAULT)
+        docx_bytes = tmp_path.read_bytes()
+    finally:
+        tmp_path.unlink(missing_ok=True)
 
     st.success("¡Proyecto de sentencia listo!")
 
